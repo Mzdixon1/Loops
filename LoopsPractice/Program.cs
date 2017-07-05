@@ -10,6 +10,22 @@ namespace LoopsPractice
     {
         static void Main(string[] args)
         {
+            //When would you use a loop?
+            // Why would you use a loop?
+            //Nested Loops
+            //Infinite Loops
+            //Keywords break and continue
+
+            //For Loops allow for the repeated execution of a group of code
+            //can be used for both counting and ITERATING(move to the next) through an array (or other collection type)
+            //looks like this:
+            //for(initializer; condition; updater)
+            //{
+            //    do something
+            //
+            //Foreach Loops
+            //While Loops
+            //Do-while loops
         }
     }
 }
