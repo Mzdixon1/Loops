@@ -55,27 +55,71 @@ namespace LoopsPractice
             //    Console.WriteLine(days[i]);
             //}
             //Start with the string "Once Upon a time" and create an array called storyWords using the Split method.  Reverse the order of the elements in the array and using a For Loop, print each word.
-            string storyWords = "Once Upon a time";
-            string[] wordsInStory = storyWords.Split();
-            Array.Reverse(wordsInStory);
-            for (int i = 0; i < wordsInStory.Length; i++)
-            {
-              Console.WriteLine(wordsInStory[i]);
-            }
+            //string storyWords = "Once Upon a time";
+            //string[] wordsInStory = storyWords.Split();
+            //Array.Reverse(wordsInStory);
+            //for (int i = 0; i < wordsInStory.Length; i++)
+            //{
+            //  Console.WriteLine(wordsInStory[i]);
+            //}
 
             //Add the product (multiplication) of 1 through 10 using a For Loop.
-            for (int i = 0; i <= 10; i++)
-            {
-                Console.WriteLine(i);
-            }
             //Print the product to the screen.
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //int product = numbers[0];
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    product = product * numbers[i];
+
+            //}
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+
+            //int product = 1;
+            //for (int i = 1; i <= 10; i++)
+
+
+
+
+                //Foreach Loop - used to iterate oer a collection (ex. list or array)
+                //You can think of the structure of a foreach loop as the statement:
+                //Foreach item in the collection, do something.
+
+                //foreach(dataType variable in collection)
+
+                //    {
+                //        do something
+                //    }
+
+
+                //int[] studentGrades = { 4, 4, 3, 4, 3 };
+
+                //foreach (int grade in studentGrades)
+                //{
+                //    Console.WriteLine(grade);
+                //}
+
+            string[] calender = { "Jan", "Feb", "Mar", "Apr", "May", "June" };
+            //Always start with the keyword foreach
+            foreach(string month in calender)
+            {
+                Console.WriteLine(month);
+
+            }
+            //Foreach loops allow the temporary variable to "know" to assign
+            //itself to each element in the collection (like an array), one at a time
+
+            //Foreach loop will always go from beginning to end, no matter what
+            //It counts the number of elements in the collection, and runs that number many times. 
+
+
 
 
 
         }
-
-
-
 
     }
 }
