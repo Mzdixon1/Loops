@@ -17,15 +17,36 @@ namespace LoopsPractice
             //Keywords break and continue
 
             //For Loops allow for the repeated execution of a group of code
-            //can be used for both counting and ITERATING(move to the next) through an array (or other collection type)
+            //can be used for both counting and/or ITERATING(move to the next) through an array (or other collection type)
             //looks like this:
             //for(initializer; condition; updater)
             //{
-            //    do something
-            //
+            //    Do something
+            //}
             //Foreach Loops
             //While Loops
             //Do-while loops
+            
+            //for (int i = 15; i > 0; i--) 
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //// or you can use counter as the variable
+            //for (int counter = 15; counter > 0; counter--)
+            //{
+            //    Console.WriteLine(counter);
+            //}
+
+            for(int i = 50; i<= 100; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+
         }
+
+
+
+
     }
 }
